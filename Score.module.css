@@ -1,0 +1,71 @@
+/* Score.module.css */
+
+.scorePage {
+  background-color: #00FFFF; /* Blue background for the score page */
+  min-height: 100vh; /* Ensure full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Added padding for small screens */
+}
+
+.scoreContainer {
+  background-color: #FFFFFF; /* White background for score container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resultTitle {
+  color: #000000;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.scoreText {
+  color: #ee00ff; /* Pink color for score text */
+  font-size: 1.5rem;
+}
+
+.topTitle {
+  display: inline-block;
+  background-color: red;
+}
+
+body {
+  background-color: #e1ff00;
+}
+
+@media (max-width: 1024px) {
+  .scoreContainer {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .resultTitle {
+    font-size: 1.8rem;
+  }
+
+  .scoreText {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .scoreContainer {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .resultTitle {
+    font-size: 1.5rem;
+  }
+
+  .scoreText {
+    font-size: 1.2rem;
+  }
+}

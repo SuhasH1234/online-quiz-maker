@@ -1,0 +1,102 @@
+/* Question.module.css */
+
+.questionPage {
+  background-color: #00FFFF; /* Blue background for the question page */
+  min-height: 100vh; /* Ensure full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Added padding for small screens */
+}
+
+.questionContainer {
+  background-color: #ffffff; /* White background for question container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.questionTitle {
+  color: #2f0909;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.questionContent {
+  background-color: #F5F5F5; /* Light gray background for question content */
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.questionText {
+  color: #000000;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.form {
+  margin-top: 15px;
+}
+
+.submitButton {
+  background-color: #ff0000; /* Red button background */
+  color: #ffffff; /* White text color */
+  border: none;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.submitButton:hover {
+  background-color: #ffa500; /* Orange on hover */
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .questionContainer {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .questionTitle {
+    font-size: 1.4rem;
+  }
+
+  .questionText {
+    font-size: 1.1rem;
+  }
+
+  .submitButton {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .questionContainer {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .questionTitle {
+    font-size: 1.3rem;
+  }
+
+  .questionText {
+    font-size: 1rem;
+  }
+
+  .submitButton {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
